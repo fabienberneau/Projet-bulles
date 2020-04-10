@@ -80,7 +80,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 50px;
+    font-size: 45px;
     text-decoration: none;
     font-family: 'Inria Sans', sans-serif;
     color: #b9a3cc;
@@ -114,18 +114,20 @@ nav ul li a:hover {
 }
 
 .hero h1 {
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
     text-shadow: #333333 2px 2px;
 }
 
 .hero h3 {
+    margin-top: 30px;
     font-size: 50px;
 
 }
 
 .titre button {
     border: none;
+    margin-top: 50px;
     margin-bottom: 20px;
     width: 300px;
     height: 70px;
@@ -152,18 +154,23 @@ nav ul li a:hover {
 }
 
 .texte {
+    text-align: center;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
+.texte p{
+    margin-top: 50px;
+}
 .icone {
     box-shadow: none;
     margin-top: 150px;
     height: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -237,6 +244,7 @@ nav ul li a:hover {
 ============================= */
 
 .footer {
+    margin-top: 150px;
     background: #4d4c4c;
     width: auto;
     height: 200px;
@@ -315,6 +323,10 @@ nav ul li a:hover {
 
 }
 
+.choix p{
+    font-family:'Inria Sans', sans-serif;
+    font-size: 35px;
+}
 .durée {
     margin-top: 150px;
     display: flex;
@@ -336,7 +348,9 @@ nav ul li a:hover {
 }
 
 .tableaux-durées h2 {
-    
+    font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     color: white;
     text-align: center;
 
@@ -355,7 +369,7 @@ nav ul li a:hover {
     
     margin-top: 10px;
     color: #333333;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .box1 {
@@ -455,10 +469,12 @@ nav ul li a:hover {
 .soin {
     box-shadow: 0 10px 20px rgba(0,0,0,0.30);
     width: 500px;
+    height: 700px;
     margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     background-color: #bacde6;
 
 }
@@ -590,6 +606,9 @@ nav ul li a:hover {
     align-items: center;
 }
 
+.réservation-texte h2{
+    margin-bottom: 50px;
+}
 .tableaux {
     width: 1300px;
     display: flex;
