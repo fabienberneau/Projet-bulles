@@ -1,0 +1,220 @@
+/* reservation
+============================= */
+.réservations {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.réservations img {
+    box-shadow: none;
+    width: 200px;
+    height: 200px;
+    margin-right: 150px;
+
+}
+
+.réservation {
+    margin-top: 150px;
+    width: 1600px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(10,10%);
+    grid-template-rows: repeat(8,12.5%);
+}
+
+
+
+.réservation .bougies img {
+    width: 400px;
+    height: 650px;
+    border: 10px solid white;
+    
+}
+.réservation .masseuses{
+    grid-column: 4;
+    grid-row: 1;
+}
+.réservation .masseuses img {
+    width: 220px;
+    height: 325px;
+    border: 10px solid white;
+    
+}
+.réservation .bougies{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.réservation .visage img {
+    width: 800px;
+    height: 450px;
+    border: 10px solid white;
+   
+}
+.réservation .visage {
+    grid-column: 4;
+    grid-row: 5;
+}
+
+.réservation .homme img {
+    width: 400px;
+    height: 600px;
+    border: 10px solid white;
+}
+
+.réservation .homme {
+    grid-column: 8;
+    grid-row-end:2 ;
+}
+.réservation .masseuse-dos img {
+    width: 500px;
+    height: 360px;
+    border: 10px solid white;
+}
+
+.réservation .masseuse-dos {
+    grid-column: 5;
+    grid-row:2;
+}
+
+
+
+.réservation-tableaux {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.réservation-texte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.réservation-texte h2{
+    margin-bottom: 50px;
+}
+.tableaux {
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.tableaux h3 {
+
+    margin-bottom: 50px;
+}
+
+
+.tableau-durée {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    margin-top: -40px;
+    width: 600px;
+    height: 300px;
+    background-color: #779e91;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.tableau-modelage {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    margin-top: -40px;
+    width: 600px;
+    height: 300px;
+    background-color: #b9a3cc;
+    display: flex;
+    
+
+
+}
+
+.réservation-jour {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tableau-jour {
+
+    width: 1200px;
+    height: 300px;
+    background-color: #bacde6;
+}
+
+.validation button {
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: #779e91;
+    color: white;
+    font-size: 35px;
+}
+
+.validation button:hover {
+    background-color: #b9a3cc;
+}
+
+
+.list {
+    width: 600px;
+    margin-left: -35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.tableau-modelage .list{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.list label {
+    position: relative;
+    display: block;
+    margin: 20px 0;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.list input[type="checkbox"] {
+    -webkit-appearance: none;
+
+}
+.list i {
+    position: absolute;
+    top: 2px;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #fff;
+}
+
+.list input[type="checkbox"]:checked~i {
+    top: 1px;
+    border-top: none;
+    border-right: none;
+    height: 15px;
+    width: 25px;
+    transform: rotate(-45deg);
+
+}
+
+.list span {
+    position: relative;
+    left: 40px;
+
+}

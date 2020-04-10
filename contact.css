@@ -1,0 +1,135 @@
+/* contact
+============================= */
+
+
+.accès {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.accès img {
+    box-shadow: none;
+    width: 200px;
+    height: 200px;
+    margin-right: 150px;
+
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+}
+
+.institut {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.institut img {
+    margin-left: 100PX;
+    width: 900px;
+    height: 650px;
+}
+
+.horaires {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.horaires h2,
+h3 {
+    text-align: center;
+}
+
+.contact {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact img {
+    box-shadow: none;
+    width: 200px;
+    height: 200px;
+    margin-right: 150px;
+
+}
+
+/* FORMULAIRE DE CONTACT
+============================= */
+
+.formulaire-contact {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    background-color: #b9a3cc;
+    width: 800px;
+    height: 500px;
+    border: 1px solid #CCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+form div{
+    margin-top: 30px;
+}
+
+form label {
+    font-family:'Inria Sans', sans-serif;
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    font-size: 30px;
+}
+
+form input,
+textarea {
+    
+    font-size: 25px;
+    height: 40px;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+form input:focus,
+textarea:focus {
+    border-color: #333333;
+}
+
+form textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    padding-left: 90px; 
+  }
+  
+  button {
+    margin-left: .5em;
+    border: none;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: #779e91;
+    color: white;
+    font-size: 25px;
+  }
