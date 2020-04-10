@@ -1,5 +1,58 @@
+/* DOCUMENT INFORMATION
+    - document: Bulles & Sens
+    - version 1.0.0
+    - author: Fabien
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family:'Inria Sans', sans-serif;
+    color: white;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Inria Sans', sans-serif;
+    color: #333333;
+    font-size: 60px;
+}
+
+h3 {
+    font-family:'Inria Sans', sans-serif;
+    color: #333333;
+    font-size: 30px;
+}
+
+p {
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+img{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+}
 /* reservation
 ============================= */
+
+.titre-page-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
 .reservations {
     margin-top: 150px;
     display: flex;
@@ -20,6 +73,7 @@
     margin-top: 150px;
     width: 1600px;
     height: 1000px;
+    
     display: grid;
     grid-template-columns: repeat(10,10%);
     grid-template-rows: repeat(8,12.5%);
@@ -139,12 +193,119 @@
     align-items: center;
 }
 
-.tableau-jour {
 
-    width: 1200px;
-    height: 300px;
-    background-color: #bacde6;
+
+/* ---------- CALENDAR ---------- */
+
+.calendar {
+    margin-top: 50px;
+	text-align: center;
 }
+.calendar table{
+    background:#bacde6 ;
+    
+}
+.calendar header {
+	position: relative;
+}
+
+.calendar h2 {
+	text-transform: uppercase;
+}
+
+.calendar thead {
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.calendar tbody {
+	color: #333333;
+}
+
+.calendar tbody td:hover {
+	border: 2px solid #b9a3cc;
+}
+
+.calendar td {
+	border: 2px solid transparent;
+	border-radius: 50%;
+	display: inline-block;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+	width: 4em;
+}
+
+.calendar .prev-month,
+.calendar .next-month {
+	color: #cbd1d2;
+}
+
+.calendar .prev-month:hover,
+.calendar .next-month:hover {
+	border: 2px solid #cbd1d2;
+}
+
+.current-day {
+	background: #b9a3cc;
+	color: #f9f9f9;
+}
+
+.event {
+	cursor: pointer;
+	position: relative;
+}
+
+.event:after {
+	background: #b9a3cc;
+	border-radius: 50%;
+	bottom: .5em;
+	display: block;
+	content: '';
+	height: .5em;
+	left: 50%;
+	margin: -.25em 0 0 -.25em;
+	position: absolute;
+	width: .5em;
+}
+
+.event.current-day:after {
+	background: #f9f9f9;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-prev,
+.btn-next {
+	border: 2px solid #cbd1d2;
+	border-radius: 50%;
+	color: #cbd1d2;
+	height: 2em;
+	font-size: .75em;
+	line-height: 2em;
+	margin: -1em;
+	position: absolute;
+	top: 50%;
+	width: 2em;
+}
+
+.btn-prev:hover,
+.btn-next:hover {
+	background: #cbd1d2;
+	color: #f9f9f9;
+}
+
+.btn-prev {
+	left: 6em;
+}
+
+.btn-next {
+	right: 6em;
+}
+
 
 .validation button {
     border: none;

@@ -1,3 +1,49 @@
+/* DOCUMENT INFORMATION
+    - document: Bulles & Sens
+    - version 1.0.0
+    - author: Fabien
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-family:'Inria Sans', sans-serif;
+    color: white;
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Inria Sans', sans-serif;
+    color: #333333;
+    font-size: 60px;
+}
+
+h3 {
+    font-family:'Inria Sans', sans-serif;
+    color: #333333;
+    font-size: 30px;
+}
+
+p {
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+}
+
+img{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+}
 /* contact
 ============================= */
 
