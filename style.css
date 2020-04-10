@@ -94,7 +94,7 @@ nav ul li a {
 nav ul li a:hover {
     transform: scale(1.1);
     transition: 0.2s;
-    color: #779e91;
+    color: #333333;
 
 
 }
