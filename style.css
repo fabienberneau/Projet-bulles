@@ -185,12 +185,14 @@ nav ul li a:hover {
 
 .slider {
     width: 1200px;
+   
     overflow: hidden;
     margin: 150px auto;
 }
 
 .slides {
     width: calc(1200px*4);
+
     animation: glisse 15s infinite;
 }
 
