@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-family: 'Inria Sans', sans-serif;
     color: #333333;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 h3 {
@@ -37,7 +37,7 @@ h3 {
 
 p {
     font-family: arial;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ img {
 ============================= */
 
 nav {
-margin-top: 10px;
+    margin-top: 10px;
     height: 80px;
     display: flex;
     align-items: center;
@@ -144,21 +144,27 @@ nav ul li a:hover {
 }
 
 .bienvenue {
-    margin-top: 150px;
+    margin-top:50px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
-.bienvenue img {
+.bienvenue .image img{
     width: 500px;
-    height: 800px;
+    height: 650px;
 }
+
+
+
+
 .bienvenue .icone img {
+  
     box-shadow: none;
-    width: 200px;
-    height: 200px;
+    width: 45px;
+    height: 45px;
 }
+
 
 .texte {
     text-align: center;
@@ -168,19 +174,13 @@ nav ul li a:hover {
     justify-content: center;
 }
 
-.texte p {
+.texte p{
     margin-top: 50px;
 }
 
-.icone {
-    box-shadow: none;
-    margin-top: 150px;
-    height: 500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
+
+
+
 
 
 
@@ -188,13 +188,13 @@ nav ul li a:hover {
 ============================= */
 
 .slider {
-    width: 1600px;
+    width: 1200px;
     overflow: hidden;
     margin: 150px auto;
 }
 
 .slides {
-    width: calc(1600px*4);
+    width: calc(1200px*4);
     animation: glisse 15s infinite;
 }
 
@@ -214,27 +214,28 @@ nav ul li a:hover {
     }
 
     25% {
-        transform: translateX(-1600px);
+        transform: translateX(-1200px);
     }
 
     35% {
-        transform: translateX(-1600px);
+        transform: translateX(-1200px);
     }
 
     50% {
-        transform: translateX(-3200px);
+        transform: translateX(-2400px);
     }
 
     60% {
-        transform: translateX(-3200px);
+        transform: translateX(-2400px);
     }
 
-    75% {
-        transform: translateX(-4800px);
+    75%{
+        transform: translateX(-3600px);
     }
 
-    85% {
-        transform: translateX(-4800px);
+    100% {
+        transform: translateX(3600px);
+
     }
 
     100% {
@@ -250,7 +251,7 @@ nav ul li a:hover {
 .footer {
     margin-top: 150px;
     background: #4d4c4c;
-    width: auto;
+    
     height: 200px;
 
 }
