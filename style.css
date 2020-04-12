@@ -252,7 +252,7 @@ nav ul li a:hover {
     margin-top: 150px;
     background: #4d4c4c;
     
-    height: 200px;
+    height: 120px;
 
 }
 
@@ -265,12 +265,12 @@ nav ul li a:hover {
 .logo img {
     box-shadow: none;
     margin-top: 10px;
-    width: 133px;
-    height: 180px;
+    width: 55px;
+    height: 75px;
 }
 
 .adresse h3 {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     text-align: center;
     letter-spacing: 2px;

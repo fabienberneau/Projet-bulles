@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-family: 'Inria Sans', sans-serif;
     color: #333333;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 h3 {
@@ -37,7 +37,7 @@ h3 {
 
 p {
     font-family: arial;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -47,8 +47,17 @@ img{
 /* soins
 ============================= */
 
+.hero {
+   
+    background: linear-gradient(rgba(185, 163, 204, 0.5),rgba(186, 206, 230, 0.8)),url(ressources/bubbles.png);
+    background-size: cover;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .prestations {
-    margin-top: 150px;
+ 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,40 +65,48 @@ img{
 }
 
 .prestations img {
+    margin-top: 50px;
+    margin-right: 30px;
     box-shadow: none;
-    width: 200px;
-    height: 200px;
-    margin-right: 150px;
+    width: 45px;
+    height: 45px;
+ 
+
+}
+.prestations h2{
+    margin-top: 50px;
 
 }
 
 .choix {
-    margin-top: 150px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
 
-.choix p{
+.choix h3{
     font-family:'Inria Sans', sans-serif;
     font-size: 35px;
 }
+
 .duree {
-    margin-top: 150px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-around;
 
 }
 
 .duree img {
-    width: 670px;
-    height: 1000px;
+    width: 536px;
+    height: 800px;
 }
 
 .tableaux-durees {
-    width: 750px;
-    height: 1000px;
+    width: 600px;
+    height: 800px;
+    margin-bottom: 50px;
     background-color: #b9a3cc;
     box-shadow: 0 10px 20px rgba(0,0,0,0.30);
 
@@ -97,8 +114,8 @@ img{
 
 .tableaux-durees h2 {
     font-size: 40px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: white;
     text-align: center;
 
@@ -115,9 +132,9 @@ img{
 
 .grille-duree h2 {
     
-    margin-top: 10px;
+    margin-top: 20px;
     color: #333333;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .box1 {
@@ -125,7 +142,7 @@ img{
     margin-left: 10px;
     background-color: white;
     width: 500px;
-    height: 100px;
+    height: 75px;
     border-radius: 75px;
     grid-column: 1/3;
     grid-row: 1/2;
@@ -137,7 +154,7 @@ img{
     box-shadow: 0 10px 20px rgba(0,0,0,0.30);
     margin-left: -10px;
     background-color: white;
-    width: 500px;
+    width: 320px;
     height: 75px;
     border-radius: 75px;
     grid-column: 2/3;
@@ -150,7 +167,7 @@ img{
     margin-left: 10px;
     background-color: white;
     width: 500px;
-    height: 100px;
+    height: 75px;
     border-radius: 75px;
     grid-column: 1/3;
     grid-row: 3/4;
@@ -162,7 +179,7 @@ img{
     box-shadow: 0 10px 20px rgba(0,0,0,0.30);
     margin-left: -10px;
     background-color: white;
-    width: 500px;
+    width: 320px;
     height: 75px;
     border-radius: 75px;
     grid-column: 2/3;
@@ -175,7 +192,7 @@ img{
     margin-left: 10px;
     background-color: white;
     width: 500px;
-    height: 100px;
+    height: 75px;
     border-radius: 75px;
     grid-column: 1/3;
     grid-row: 5/6;
@@ -186,7 +203,7 @@ img{
     box-shadow: 0 10px 20px rgba(0,0,0,0.30);
     margin-left: -10px;
     background-color: white;
-    width: 500px;
+    width: 320px;
     height: 75px;
     border-radius: 75px;
     grid-column: 2/3;
@@ -227,7 +244,7 @@ img{
 
 }
 .soin h2{
-    font-size: 30px;
+    font-size: 35px;
 }
 .soin img {
     object-fit: cover;
@@ -246,6 +263,14 @@ img{
     background-color: #b9a3cc;
     color: white;
     font-size: 35px;
+    transition: 0.5s;
+}
+
+.soin button:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+    background-color: #6e4d8b;
+    transition: 0.5s;
 }
 
 .regles {
