@@ -132,14 +132,14 @@ nav ul li a:hover {
     width: 300px;
     height: 70px;
     border-radius: 30px;
-    background-color: #b9a3cc;
+    background-color: #6e4d8b;
     color: white;
     font-size: 35px;
     transition: 0.5s;
 }
 
 .titre button:hover {
-    background-color: #6e4d8b;
+    background-color: #6312aa;
     transition: 0.5s;
 }
 
