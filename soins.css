@@ -263,14 +263,13 @@ img{
     background-color: #b9a3cc;
     color: white;
     font-size: 35px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .soin button:hover {
-    transform: scale(1.1);
     transition: 0.2s;
     background-color: #6e4d8b;
-    transition: 0.5s;
+    
 }
 
 .regles {

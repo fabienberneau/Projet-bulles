@@ -46,15 +46,25 @@ img{
 }
 /* reservation
 ============================= */
-
-.titre-page-3{
+.hero {
+   
+    background: linear-gradient(rgba(185, 163, 204, 0.5),rgba(186, 206, 230, 0.8)),url(ressources/bubbles.png);
+    background-size: cover;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
+
+.hero h2{
+    font-size: 45px;
+}
+
 .reservations {
-    margin-top: 150px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,17 +73,16 @@ img{
 
 .reservations img {
     box-shadow: none;
-    width: 200px;
-    height: 200px;
-    margin-right: 150px;
+    width: 45px;
+    height: 45px;
+    margin-right: 50px;
 
 }
 
 .reservation {
     margin-top: 150px;
     width: 1600px;
-    height: 1000px;
-    
+    height: 1000px; 
     display: grid;
     grid-template-columns: repeat(10,10%);
     grid-template-rows: repeat(8,12.5%);
@@ -150,6 +159,7 @@ img{
 
 .reservation-texte h2{
     margin-bottom: 50px;
+    font-size: 45px;
 }
 .tableaux {
     width: 1300px;

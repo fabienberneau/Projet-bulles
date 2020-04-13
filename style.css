@@ -251,7 +251,6 @@ nav ul li a:hover {
 .footer {
     margin-top: 150px;
     background: #4d4c4c;
-    
     height: 120px;
 
 }
@@ -278,6 +277,7 @@ nav ul li a:hover {
 }
 
 .reseaux {
+    margin-top: 20px;
     width: 300px;
     height: 100px;
     display: flex;
