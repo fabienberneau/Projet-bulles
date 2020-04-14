@@ -5,20 +5,20 @@
 */
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-   
+
     width: 100%;
     height: 100%;
 }
 
 h1 {
-    font-family:'Inria Sans', sans-serif;
+    font-family: 'Inria Sans', sans-serif;
     color: white;
     font-size: 80px;
 }
@@ -30,7 +30,7 @@ h2 {
 }
 
 h3 {
-    font-family:'Inria Sans', sans-serif;
+    font-family: 'Inria Sans', sans-serif;
     color: #333333;
     font-size: 30px;
 }
@@ -41,15 +41,16 @@ p {
     text-align: center;
 }
 
-img{
-    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+img {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
 }
+
 /* soins
 ============================= */
 
 .hero {
-   
-    background: linear-gradient(rgba(185, 163, 204, 0.5),rgba(186, 206, 230, 0.8)),url(ressources/bubbles.png);
+
+    background: linear-gradient(rgba(185, 163, 204, 0.5), rgba(186, 206, 230, 0.8)), url(ressources/bubbles.png);
     background-size: cover;
     min-height: 100vh;
     justify-content: center;
@@ -57,7 +58,7 @@ img{
 }
 
 .prestations {
- 
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,10 +71,11 @@ img{
     box-shadow: none;
     width: 45px;
     height: 45px;
- 
+
 
 }
-.prestations h2{
+
+.prestations h2 {
     margin-top: 50px;
 
 }
@@ -86,8 +88,8 @@ img{
 
 }
 
-.choix h3{
-    font-family:'Inria Sans', sans-serif;
+.choix h3 {
+    font-family: 'Inria Sans', sans-serif;
     font-size: 35px;
 }
 
@@ -108,7 +110,7 @@ img{
     height: 800px;
     margin-bottom: 50px;
     background-color: #b9a3cc;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
 
 }
 
@@ -131,14 +133,14 @@ img{
 
 
 .grille-duree h2 {
-    
+
     margin-top: 20px;
     color: #333333;
     font-size: 25px;
 }
 
 .box1 {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
     margin-left: 10px;
     background-color: white;
     width: 500px;
@@ -151,7 +153,7 @@ img{
 
 
 .box2 {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
     margin-left: -10px;
     background-color: white;
     width: 320px;
@@ -163,7 +165,7 @@ img{
 }
 
 .box3 {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
     margin-left: 10px;
     background-color: white;
     width: 500px;
@@ -176,7 +178,7 @@ img{
 }
 
 .box4 {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
     margin-left: -10px;
     background-color: white;
     width: 320px;
@@ -188,7 +190,7 @@ img{
 }
 
 .box5 {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
     margin-left: 10px;
     background-color: white;
     width: 500px;
@@ -200,7 +202,7 @@ img{
 }
 
 .box6 {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
     margin-left: -10px;
     background-color: white;
     width: 320px;
@@ -232,7 +234,7 @@ img{
 }
 
 .soin {
-    box-shadow: 0 10px 20px rgba(0,0,0,0.30);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
     width: 500px;
     height: 700px;
     margin-top: 150px;
@@ -243,9 +245,11 @@ img{
     background-color: #bacde6;
 
 }
-.soin h2{
+
+.soin h2 {
     font-size: 35px;
 }
+
 .soin img {
     object-fit: cover;
     margin-top: 50px;
@@ -269,7 +273,7 @@ img{
 .soin button:hover {
     transition: 0.2s;
     background-color: #6e4d8b;
-    
+
 }
 
 .regles {
@@ -280,3 +284,240 @@ img{
 .regles p {
     margin-top: 50px;
 }
+
+/* MEDIAQUERIES
+============================= */
+
+@media screen and (max-width:1024px) {
+    p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .choix h3 {
+        font-size: 20px;
+    }
+
+    .prestations img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .duree {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .duree img {
+        width: 428px;
+        height: 640px;
+    }
+
+    .tableaux-durees {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 480px;
+        height: 640px;
+
+
+    }
+
+    .grille-duree {
+        margin-top: -20px;
+        width: 480px;
+        height: 640px;
+
+    }
+
+
+    .box1 {
+        width: 300px;
+    }
+
+    .box2 {
+        width: 200px;
+    }
+
+    .box3 {
+        width: 300px;
+    }
+
+    .box4 {
+        width: 200px;
+    }
+
+    .box5 {
+        width: 300px;
+    }
+
+    .box6 {
+        width: 200px;
+    }
+
+    .grille-duree {
+
+        width: 400px;
+        height: 480px;
+        display: grid;
+        grid-template-columns: 200px 200px;
+        grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    }
+
+    .texte-soin {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    @media screen and (max-width:350px) {
+        h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .prestations img {
+            margin-top: 15px;
+            margin-left: 30px;
+            box-shadow: none;
+            width: 30px;
+            height: 30px;
+
+
+        }
+
+        h3 {
+            font-size: 15px;
+        }
+
+        .choix h3 {
+            font-size: 15px;
+        }
+
+        .duree {
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .duree img {
+            width: 300px;
+            height: 460px;
+        }
+
+        .tableaux-durees h2 {
+            font-size: 25px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .grille-duree h2 {
+
+            margin-top: 10px;
+            color: #333333;
+            font-size: 25px;
+        }
+
+
+
+        .grille-duree {
+            margin-top: 7px;
+            width: 300px;
+            height: 480px;
+            display: grid;
+            grid-template-columns: 150px 150px;
+            grid-template-rows: 80px 80px 80px 80px 80px 80px;
+        }
+
+        .tableaux-durees {
+            width: 320px;
+            height: 520px;
+        }
+
+        .grille-duree h2 {
+            margin-bottom: 10px;
+            color: #333333;
+            font-size: 18px;
+        }
+
+        .box1 {
+            width: 200px;
+            height: 45px;
+        }
+
+        .box2 {
+            width: 150px;
+            height: 45px;
+        }
+
+        .box3 {
+            width: 200px;
+            height: 45px;
+        }
+
+        .box4 {
+            width: 150px;
+            height: 45px;
+        }
+
+        .box5 {
+            width: 200px;
+            height: 45px;
+        }
+
+        .box6 {
+            width: 150px;
+            height: 45px;
+        }
+
+        .soin {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+            width: 300px;
+            height: 500px;
+            margin-top: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            background-color: #bacde6;
+
+        }
+
+        .soin h2 {
+            font-size: 25px;
+        }
+
+        .soin img {
+            object-fit: cover;
+            margin-top: 50px;
+            width: 280px;
+            height: 150px;
+
+        }
+
+        .soin button {
+            border: none;
+            margin-bottom: 20px;
+            width: 200px;
+            height: 50px;
+            border-radius: 30px;
+            background-color: #b9a3cc;
+            color: white;
+            font-size: 20px;
+            transition: 0.2s;
+        }
+
+        .soin button:hover {
+            transition: 0.2s;
+            background-color: #6e4d8b;
+
+        }
+    }

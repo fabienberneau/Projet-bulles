@@ -87,7 +87,13 @@ img{
     grid-template-rows: repeat(8,12.5%);
 }
 
+.reservation-responsive img{
+    margin-top: 20px;
+    margin-left: 60px;
+    display: none;
+    border: 10px  solid white;
 
+}
 
 .reservation .bougies img {
     width: 400px;
@@ -387,4 +393,38 @@ button a{
     position: relative;
     left: 40px;
 
+}
+
+/* MEDIAQUERIES
+============================= */
+
+@media screen and (max-width:1024px){
+    .reservation{
+    display: none;
+    }
+    .reservation-jour {
+        margin-top: 50px;
+    }
+
+    .reservation-responsive img{
+        display: initial;   
+    }
+
+    .reservation-tableaux {
+        margin-top: 50px;   
+    }
+    .tableaux {
+        width: 900px;
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+
+    p{
+        font-size: 18px;
+    }
+    
+    .adresse{
+        width: auto;
+    }
 }
