@@ -397,13 +397,13 @@ nav ul li a:hover {
     }
 
     .slider {
-        width: 1050px;
+        width: 1500px;
 
 
     }
 
     .slides {
-        width: calc(350px*4);
+        width: calc(500px*4);
         animation: glisse 15s infinite;
     }
 
@@ -426,27 +426,27 @@ nav ul li a:hover {
         }
 
         25% {
-            transform: translateX(-350px);
+            transform: translateX(-500px);
         }
 
         35% {
-            transform: translateX(-350px);
+            transform: translateX(-500px);
         }
 
         50% {
-            transform: translateX(-700px);
+            transform: translateX(-1000px);
         }
 
         60% {
-            transform: translateX(-700px);
+            transform: translateX(-1000px);
         }
 
         75% {
-            transform: translateX(-1050px);
+            transform: translateX(-1500px);
         }
 
         100% {
-            transform: translateX(1050px);
+            transform: translateX(1500px);
 
         }
 
