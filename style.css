@@ -85,17 +85,18 @@ nav ul li a {
     color: #6e4d8b;
     transform: scale(1.1);
     transition: 0.2s;
-
-
-
 }
 
 nav ul li a:hover {
     transform: scale(1.1);
     transition: 0.2s;
     color: #333333;
+}
 
-
+/* Menu Hamburger
+============================= */
+.topnav{
+    display: none;
 }
 
 .hero {
@@ -384,6 +385,57 @@ nav ul li a:hover {
 
 
 @media screen and (max-width:500px) {
+    nav{
+        display: none;
+    }
+    .topnav {
+        display: initial;
+        overflow: hidden;
+        background-color: #333;
+        position: relative;
+      }
+      
+      .topnav #myLinks {
+        display: initial;
+        background-color: #b9a3cc;
+       
+        
+      }
+      
+      .topnav a {
+        color:#333333;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+      
+      .topnav a.icon {
+    
+        background: black;
+        display: block;
+        position: relative;
+        top: 0;
+        right: 0;
+
+      }
+      
+      .topnav a:hover {
+        background-color: #6e4d8b;
+        color:#333333;
+        
+      }
+      
+      .active {
+        background-color: white;
+        color: white;
+      }
+
+      .active img{
+        box-shadow: none;
+        width: 58px;
+        height: 75px;
+      }
     p{
         font-size: 15px;
     }
@@ -413,7 +465,7 @@ nav ul li a:hover {
     }
 
     .slide img {
-        width: 350px;
+        width: 500px;
     }
 
     @keyframes glisse {
