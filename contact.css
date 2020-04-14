@@ -210,3 +210,105 @@ p{
     font-size: 20px;
 }
     
+/* MEDIAQUERIES
+============================= */
+
+@media screen and (max-width:1024px){
+    h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .acces{
+        margin-top:30px;
+    }
+    .information{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .information img{
+        margin-left: unset;
+        margin-bottom: 30px;
+        width: 720px ;
+        height: 480px;
+    }
+    .information h2{
+        font-size: 25px;
+    }
+    .information h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    form {
+        width: 600px;
+        height: 500px;
+    }
+    form input,
+textarea {
+
+    font-size: 20px;
+    height: 30px;
+    width:380px;
+    
+}
+form label {
+    width: 150px;
+    font-size: 20px;
+}
+button {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    
+}
+P{
+    font-size: 15px;
+}
+
+}
+@media screen and (max-width:350px){
+
+
+    .information img{
+      
+        width: 280px ;
+        height: 180px;
+    }
+    .acces img {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    
+    }
+
+.contact img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+form {
+    width: 280px;
+    height: 600px;
+}
+form input,
+textarea {
+margin-left: 3px;
+    font-size: 15px;
+    height: 30px;
+    width:270px;
+    
+}
+form label {
+    width: 60px;
+    height: 20px;
+    font-size: 15px;
+}
+button {
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    
+}
+}

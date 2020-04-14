@@ -411,6 +411,13 @@ button a {
 ============================= */
 
 @media screen and (max-width:1024px) {
+    
+    .reservations h2{
+        font-size: 25px;
+    }
+    .reservations{
+        margin-top:30px
+    }
     .reservation {
         display: none;
     }
@@ -421,6 +428,7 @@ button a {
 
     .reservation-responsive img {
         display: initial;
+        margin-bottom: 30px;
     }
 
     .reservation-tableaux {

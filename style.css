@@ -384,6 +384,9 @@ nav ul li a:hover {
 
 
 @media screen and (max-width:350px) {
+    p{
+        font-size: 15px;
+    }
     
     nav ul li {
         width: 100px;
@@ -487,12 +490,16 @@ nav ul li a:hover {
     }
 
     .reseaux-icones {
+        margin-top: 15px;
         width: 200px;
     }
 
     .adresse h3 {
         display: none;
 
+    }
+    .logo{
+        margin-left: 15px;
     }
 
 }
