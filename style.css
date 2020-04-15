@@ -190,6 +190,8 @@ nav ul li a:hover {
 .slides {
     width: calc(1200px*4);
     animation: glisse 15s infinite;
+ 
+
 }
 
 .slide {
@@ -198,7 +200,11 @@ nav ul li a:hover {
 }
 
 
+
 @keyframes glisse {
+
+
+    
     0% {
         transform: translateX(0px);
     }
@@ -236,6 +242,7 @@ nav ul li a:hover {
         transform: translateX(0px);
 
     }
+
 
 }
 
