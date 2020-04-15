@@ -52,6 +52,7 @@ img {
  
     background: linear-gradient(rgba(185, 163, 204, 0.5), rgba(186, 206, 230, 0.8)), url(ressources/bubbles.png);
     background-size: cover;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +61,7 @@ img {
 }
 
 .acces { 
-    margin-top: 50px;
+ 
     display: flex;
     justify-content: center;
 

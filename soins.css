@@ -52,7 +52,7 @@ img {
 
     background: linear-gradient(rgba(185, 163, 204, 0.5), rgba(186, 206, 230, 0.8)), url(ressources/bubbles.png);
     background-size: cover;
-    min-height: 100vh;
+    min-height: 80vh;
     justify-content: center;
     align-items: center;
 }
