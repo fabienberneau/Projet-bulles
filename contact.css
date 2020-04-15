@@ -20,7 +20,7 @@ body {
 h1 {
     font-family: 'Inria Sans', sans-serif;
     color: white;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 h2 {
@@ -44,6 +44,8 @@ p {
 img {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
 }
+
+
 
 /* contact
 ============================= */
