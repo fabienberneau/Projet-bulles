@@ -65,15 +65,6 @@ img {
 
 }
 
-.prestations img {
-    margin-top: 50px;
-    margin-right: 30px;
-    box-shadow: none;
-    width: 45px;
-    height: 45px;
-
-
-}
 
 .prestations h2 {
     margin-top: 50px;
@@ -381,15 +372,6 @@ img {
             text-align: center;
         }
        
-
-        .prestations img {
-           
-            box-shadow: none;
-            width: 30px;
-            height: 30px;
-
-
-        }
 
         h3 {
             font-size: 20px;

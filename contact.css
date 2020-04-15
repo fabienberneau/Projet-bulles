@@ -60,20 +60,16 @@ img {
 }
 
 .acces { 
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 
 }
 
-.acces img {
-    box-shadow: none;
-    width: 45px;
-    height: 45px;
-    margin-right: 50px;
 
-}
 
 .information {
+    margin-bottom: 50px;
     display: flex;
     justify-content: center;
 }
@@ -86,8 +82,8 @@ img {
 
 .institut img {
     margin-left: 100PX;
-    width: 900px;
-    height: 650px;
+    width: 850px;
+    height: 600px;
 }
 
 .horaires {
@@ -116,13 +112,7 @@ img {
 
 }
 
-.contact img {
-    box-shadow: none;
-    width: 45px;
-    height: 45px;
-    margin-right: 50px;
 
-}
 
 /* FORMULAIRE DE CONTACT
 ============================= */
@@ -273,19 +263,8 @@ P{
         width: 280px ;
         height: 180px;
     }
-    .acces img {
-        width: 30px;
-        height: 30px;
-        margin-right: 10px;
-    
-    }
 
-.contact img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
 
-}
 form {
     width: 350px;
     height: 500px;
