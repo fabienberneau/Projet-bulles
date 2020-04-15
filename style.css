@@ -436,8 +436,12 @@ nav ul li a:hover {
         width: 35px;
         height: 45px;
       }
-    p{
+    .texte p{
+        margin-top: 30px;
         font-size: 15px;
+    }
+    h2{
+        font-size: 25px;
     }
     
     nav ul li {
@@ -459,10 +463,11 @@ nav ul li a:hover {
         animation: glisse 15s  infinite ;
     }
 
-    .slide {
-        float: left;
-
+    .bienvenue .icone img {
+        width: 30px;
+        height: 30px;
     }
+    
 
     .slide img {
         
@@ -520,6 +525,7 @@ nav ul li a:hover {
     }
 
     .bienvenue .image img {
+        margin-bottom: 30px;
         width: 320px;
         height: 416px;
     }
