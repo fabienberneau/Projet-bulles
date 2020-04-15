@@ -48,6 +48,9 @@ img {
 
 /* HEADER 
 ============================= */
+.topnav{
+    display: none;
+}
 
 nav {
 
@@ -514,6 +517,7 @@ nav ul li a:hover {
 ============================= */
 
     .topnav {
+       display: inherit;
         overflow: hidden;
         background-color:  #b9a3cc;
         position: relative;
