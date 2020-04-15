@@ -465,7 +465,9 @@ button a {
     .reservation-tableaux h2{
         font-size: 25px;
     }
-
+.span {
+    font-size: 15px;
+}
     .reservation-tableaux h3{
         font-size: 20px;
     }
