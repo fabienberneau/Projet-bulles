@@ -71,13 +71,7 @@ img {
 
 }
 
-.reservations img {
-    box-shadow: none;
-    width: 45px;
-    height: 45px;
-    margin-right: 50px;
 
-}
 
 .reservation {
     margin-top: 50px;
@@ -457,11 +451,7 @@ button a {
         margin-top: 30px;
     }
 
-    .reservations img{
-        margin-right: 10px;
-        width: 30px;
-        height: 30px;
-    }
+  
     .reservations h2{
         font-size: 25px;
     }
