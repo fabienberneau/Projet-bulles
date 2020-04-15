@@ -549,9 +549,14 @@ nav ul li a:hover {
         font-size: 25px;
     }
 
+    
     .reseaux-icones {
         margin-top: 15px;
         width: 200px;
+    }
+    .reseaux-icones i{
+        width: 50%;
+        height: 50%;
     }
 
     .adresse h3 {

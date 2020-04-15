@@ -374,14 +374,18 @@ img {
 }
 
     @media screen and (max-width:500px) {
+
         h2 {
-            font-size: 20px;
+          
+            font-size: 25px;
             text-align: center;
         }
+       
 
         .prestations img {
-            margin-top: 15px;
-            margin-left: 30px;
+            margin-top: 40px;
+            margin-right: 20px;
+            margin-left: 20px;
             box-shadow: none;
             width: 30px;
             height: 30px;
@@ -390,11 +394,11 @@ img {
         }
 
         h3 {
-            font-size: 15px;
+            font-size: 20px;
         }
 
         .choix h3 {
-            font-size: 15px;
+            font-size: 20px;
         }
 
         .duree {
@@ -405,8 +409,9 @@ img {
         }
 
         .duree img {
-            width: 300px;
-            height: 460px;
+            width: 320px;
+            height: 480px;
+            margin-bottom: 20px;
         }
 
         .tableaux-durees h2 {
@@ -478,7 +483,7 @@ img {
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
             width: 300px;
             height: 500px;
-            margin-top: 150px;
+            margin-top: 30px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -488,7 +493,7 @@ img {
         }
 
         .soin h2 {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         .soin img {
@@ -515,5 +520,8 @@ img {
             transition: 0.2s;
             background-color: #6e4d8b;
 
+        }
+        .regles{
+            margin-top:30px;
         }
     }
