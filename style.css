@@ -50,6 +50,7 @@ img {
 ============================= */
 
 nav {
+
     margin-top: 10px;
     height: 80px;
     display: flex;
@@ -93,11 +94,6 @@ nav ul li a:hover {
     color: #333333;
 }
 
-/* Menu Hamburger
-============================= */
-.topnav{
-    display: none;
-}
 
 .hero {
     background: linear-gradient(rgba(185, 163, 204, 0.5), rgba(186, 206, 230, 0.8)), url(ressources/bubbles.png);
@@ -385,92 +381,69 @@ nav ul li a:hover {
 
 
 @media screen and (max-width:500px) {
-    nav{
+    nav {
         display: none;
     }
-    .topnav {
-        display: initial;
-        overflow: hidden;
-        background-color:white;
-       position: relative;
-         }
-      
-      .topnav #myLinks {
-        display: initial;
-        background-color: #b9a3cc;
-       
-        
-      }
-      
-      .topnav a {
-        color:#333333;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        display: block;
-      }
-      
-      .topnav a.icon {
-    
-        background: black;
-        display: block;
-        position: relative;
-        top: 0;
-        right: 0;
 
-      }
-      
-      .topnav a:hover {
-        background-color: white;
-        color:#333333;
-        
-      }
-      
-      .active {
-        background-color: white;
-        color: white;
-      }
-
-      .active img{
-        box-shadow: none;
-        width: 35px;
-        height: 45px;
-      }
-    .texte p{
+    .texte p {
         margin-top: 30px;
         font-size: 15px;
     }
-    h2{
+
+    h2 {
         font-size: 25px;
     }
-    
-    nav ul li {
-        width: 100px;
+
+    .bienvenue {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
     }
 
-    nav img {
-        margin-left: 15px;
+    .bienvenue .image img {
+        margin-bottom: 30px;
+        width: 320px;
+        height: 416px;
     }
-
-    .slider {
-        width: 500px;
-        margin: 50px ;
-    }
-    
-
-    .slides {
-        width: calc(500px*4);
-        animation: glisse 15s  infinite ;
-    }
-
     .bienvenue .icone img {
         width: 30px;
         height: 30px;
     }
-    
+
+    .hero h1 {
+        font-size: 40px;
+
+    }
+
+
+    .hero h3 {
+        text-align: center;
+        font-size: 25px;
+
+    }
+
+    .titre button {
+
+        width: 200px;
+        height: 50px;
+        font-size: 25px;
+    }
+
+    .slider {
+        width: 500px;
+        margin: 50px;
+    }
+
+
+    .slides {
+        width: calc(500px*4);
+        animation: glisse 15s infinite;
+    }
+
+  
 
     .slide img {
-        
+
         width: 500px;
     }
 
@@ -514,47 +487,16 @@ nav ul li a:hover {
         }
     }
 
-    nav ul li a {
-        font-size: 15px;
-    }
-
-    .bienvenue {
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .bienvenue .image img {
-        margin-bottom: 30px;
-        width: 320px;
-        height: 416px;
-    }
-
-    .hero h1 {
-        font-size: 40px;
-
-    }
 
 
-    .hero h3 {
-        text-align: center;
-        font-size: 25px;
 
-    }
 
-    .titre button {
-
-        width: 200px;
-        height: 50px;
-        font-size: 25px;
-    }
-
-    
     .reseaux-icones {
         margin-top: 15px;
         width: 200px;
     }
-    .reseaux-icones i{
+
+    .reseaux-icones i {
         width: 50%;
         height: 50%;
     }
@@ -563,8 +505,54 @@ nav ul li a:hover {
         display: none;
 
     }
-    .logo{
+
+    .logo {
         margin-left: 15px;
+    }
+
+    /* Menu Hamburger
+============================= */
+
+    .topnav {
+        overflow: hidden;
+        background-color:  #b9a3cc;
+        position: relative;
+    }
+    .active img{
+        box-shadow: none;
+        width: 27px;
+        height: 35px;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav a.icon {
+       
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+   
+    .topnav a:hover {
+        background-color: #6e4d8b;
+        color: black;
+    }
+
+    .active {
+        background-color:#6e4d8b;
+        color: black;
     }
 
 }
