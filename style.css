@@ -321,7 +321,7 @@ nav ul li a:hover {
 
     .slides {
         width: calc(1024px*4);
-        animation: glisse 15s infinite;
+        animation: glisse 15s  infinite;
     }
 
     .slide {
