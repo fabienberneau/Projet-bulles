@@ -537,8 +537,7 @@ nav ul li a:hover {
     }
 
     .topnav a.icon {
-       
-        background: black;
+        background: #333333;
         display: block;
         position: absolute;
         right: 0;
@@ -547,7 +546,7 @@ nav ul li a:hover {
    
     .topnav a:hover {
         background-color: #6e4d8b;
-        color: black;
+        color:#333333;
     }
 
     .active {
