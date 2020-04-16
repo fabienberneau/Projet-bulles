@@ -49,14 +49,43 @@
             <a href="reservation.html">
                 <button>Réservez</button>
             </a>
-            <div class="slider">
-                <div class="slides">
-                    <div class="slide"><img src="ressources/sauna-2.png" alt="sauna"></div>
-                    <div class="slide"><img src="ressources/massage-duo-2.png" alt="massage duo"></div>
-                    <div class="slide"><img src="ressources/espace-detente-2.png" alt="espace détente"></div>
-                    <div class="slide"><img src="ressources/woman-spa-2.png" alt="femme spa"></div>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  
+                  <img src="ressources/espace-detente-2.png" style="width:100%">
+                  
                 </div>
-            </div>
+                
+                <div class="mySlides fade">
+                 
+                  <img src="ressources/massage-duo-2.png" style="width:100%">
+                  
+                </div>
+                
+                <div class="mySlides fade">
+                 
+                  <img src="ressources/sauna-2.png" style="width:100%">
+                 
+                </div>
+                
+                <div class="mySlides fade">
+                    
+                    <img src="ressources/woman-spa-2.png" style="width:100%">
+                    
+                
+                  </div>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span>
+                  <span class="dot"></span> 
+                   
+                </div>
         </div>
 
 
@@ -108,15 +137,26 @@
     </section>
 
     <script>
-        function myFunction() {
-            var x = document.getElementById("myLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
+        var slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
         }
-    </script>
+        </script>
 
 </body>
 
