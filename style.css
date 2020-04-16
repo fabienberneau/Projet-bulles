@@ -301,9 +301,7 @@ nav ul li a:hover {
 @media screen and (max-width:1024px) {
 
 
-    nav ul li a {
-        font-size: 25px;
-    }
+   
 
     nav ul li {
         width: 250px;
