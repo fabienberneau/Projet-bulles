@@ -295,7 +295,7 @@ img {
         font-size: 20px;
     }
 
-    
+
     .duree {
         margin-top: 70px;
         display: flex;
@@ -366,145 +366,146 @@ img {
     }
 }
 
-    @media screen and (max-width:500px) {
+@media screen and (max-width:500px) {
 
-        h2 {
-          
-            font-size: 25px;
-            text-align: center;
-        }
-       
+    h2 {
 
-        h3 {
-            font-size: 20px;
-        }
-
-        .choix h3 {
-            font-size: 20px;
-        }
-
-        .duree {
-            margin-top: 50px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .duree img {
-            width: 320px;
-            height: 480px;
-            margin-bottom: 20px;
-        }
-
-        .tableaux-durees h2 {
-            font-size: 25px;
-            margin-top: 20px;
-            margin-bottom: 10px;
-        }
-
-        .grille-duree h2 {
-
-            margin-top: 10px;
-            color: #333333;
-            font-size: 25px;
-        }
-
-
-
-        .grille-duree {
-            margin-top: 7px;
-            width: 300px;
-            height: 480px;
-            display: grid;
-            grid-template-columns: 150px 150px;
-            grid-template-rows: 80px 80px 80px 80px 80px 80px;
-        }
-
-        .tableaux-durees {
-            width: 320px;
-            height: 520px;
-        }
-
-        .grille-duree h2 {
-            margin-bottom: 10px;
-           
-            font-size: 18px;
-        }
-
-        .box1 {
-            width: 200px;
-            height: 45px;
-        }
-
-        .box2 {
-            width: 150px;
-            height: 45px;
-        }
-
-        .box3 {
-            width: 200px;
-            height: 45px;
-        }
-
-        .box4 {
-            width: 150px;
-            height: 45px;
-        }
-
-        .box5 {
-            width: 200px;
-            height: 45px;
-        }
-
-        .box6 {
-            width: 150px;
-            height: 45px;
-        }
-
-        .soin {
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
-            width: 300px;
-            height: 500px;
-            margin-top: 30px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
-            background-color: #bacde6;
-
-        }
-
-        .soin h2 {
-            font-size: 20px;
-        }
-
-        .soin img {
-            object-fit: cover;
-            margin-top: 50px;
-            width: 280px;
-            height: 150px;
-
-        }
-
-        .soin button {
-            border: none;
-            margin-bottom: 20px;
-            width: 200px;
-            height: 50px;
-            border-radius: 30px;
-            background-color: #b9a3cc;
-            color: white;
-            font-size: 20px;
-            transition: 0.2s;
-        }
-
-        .soin button:hover {
-            transition: 0.2s;
-            background-color: #6e4d8b;
-
-        }
-        .regles{
-            margin-top:30px;
-        }
- 
+        font-size: 25px;
+        text-align: center;
     }
+
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .choix h3 {
+        font-size: 20px;
+    }
+
+    .duree {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .duree img {
+        width: 320px;
+        height: 480px;
+        margin-bottom: 20px;
+    }
+
+    .tableaux-durees h2 {
+        font-size: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .grille-duree h2 {
+
+        margin-top: 10px;
+        color: #333333;
+        font-size: 25px;
+    }
+
+
+
+    .grille-duree {
+        margin-top: 7px;
+        width: 300px;
+        height: 480px;
+        display: grid;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    }
+
+    .tableaux-durees {
+        width: 320px;
+        height: 520px;
+    }
+
+    .grille-duree h2 {
+        margin-bottom: 10px;
+
+        font-size: 18px;
+    }
+
+    .box1 {
+        width: 200px;
+        height: 45px;
+    }
+
+    .box2 {
+        width: 150px;
+        height: 45px;
+    }
+
+    .box3 {
+        width: 200px;
+        height: 45px;
+    }
+
+    .box4 {
+        width: 150px;
+        height: 45px;
+    }
+
+    .box5 {
+        width: 200px;
+        height: 45px;
+    }
+
+    .box6 {
+        width: 150px;
+        height: 45px;
+    }
+
+    .soin {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
+        width: 300px;
+        height: 500px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #bacde6;
+
+    }
+
+    .soin h2 {
+        font-size: 20px;
+    }
+
+    .soin img {
+        object-fit: cover;
+        margin-top: 50px;
+        width: 280px;
+        height: 150px;
+
+    }
+
+    .soin button {
+        border: none;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        background-color: #b9a3cc;
+        color: white;
+        font-size: 20px;
+        transition: 0.2s;
+    }
+
+    .soin button:hover {
+        transition: 0.2s;
+        background-color: #6e4d8b;
+
+    }
+
+    .regles {
+        margin-top: 30px;
+    }
+
+}

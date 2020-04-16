@@ -51,7 +51,7 @@ img {
 ============================= */
 
 .hero {
- 
+
     background: linear-gradient(rgba(185, 163, 204, 0.5), rgba(186, 206, 230, 0.8)), url(ressources/bubbles.png);
     background-size: cover;
     min-height: 80vh;
@@ -62,14 +62,12 @@ img {
 
 }
 
-.acces { 
- 
+.acces{
+    margin-top: 50px;
     display: flex;
+    align-items: center;
     justify-content: center;
-
 }
-
-
 
 .information {
     margin-bottom: 50px;
@@ -185,48 +183,54 @@ button {
     border-radius: 30px;
     background-color: white;
 
-    color:#6e4d8b;
+    color: #6e4d8b;
     font-size: 25px;
     transition: 0.2s;
 }
 
 
-button:hover{
-    color:#b9a3cc ;
-        background-color: #6e4d8b;
-        transition: 0.2s;
-        
-    }
-p{
+button:hover {
+    color: #b9a3cc;
+    background-color: #6e4d8b;
+    transition: 0.2s;
+
+}
+
+p {
     font-size: 20px;
 }
-    
+
 /* MEDIAQUERIES
 ============================= */
 
-@media screen and (max-width:1024px){
+@media screen and (max-width:1024px) {
     h2 {
         font-size: 25px;
         text-align: center;
     }
-    .acces{
-        margin-top:30px;
+
+    .acces {
+        margin-top: 30px;
     }
-    .information{
+
+    .information {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .information img{
+
+    .information img {
         margin-left: unset;
         margin-bottom: 30px;
-        width: 720px ;
+        width: 720px;
         height: 480px;
     }
-    .information h2{
+
+    .information h2 {
         font-size: 25px;
     }
-    .information h3{
+
+    .information h3 {
         font-size: 15px;
         margin-bottom: 10px;
     }
@@ -235,60 +239,68 @@ p{
         width: 600px;
         height: 500px;
     }
+
     form input,
-textarea {
+    textarea {
 
-    font-size: 20px;
-    height: 30px;
-    width:380px;
-    
-}
-form label {
-    width: 150px;
-    font-size: 20px;
-}
-button {
-    width: 200px;
-    height: 50px;
-    font-size: 18px;
-    
-}
-P{
-    font-size: 15px;
-}
+        font-size: 20px;
+        height: 30px;
+        width: 380px;
+
+    }
+
+    form label {
+        width: 150px;
+        font-size: 20px;
+    }
+
+    button {
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+
+    }
+
+    P {
+        font-size: 15px;
+    }
 
 }
-@media screen and (max-width:500px){
+
+@media screen and (max-width:500px) {
 
 
-    .information img{
-      
-        width: 280px ;
+    .information img {
+
+        width: 280px;
         height: 180px;
     }
 
 
-form {
-    width: 350px;
-    height: 500px;
-}
-form input,
-textarea {
-margin-left: 3px;
-    font-size: 15px;
-    height: 30px;
-    width:270px;
-    
-}
-form label {
-    width: 60px;
-    height: 20px;
-    font-size: 15px;
-}
-button {
-    width: 150px;
-    height: 30px;
-    font-size: 15px;
-    
-}
+    form {
+        width: 350px;
+        height: 500px;
+    }
+
+    form input,
+    textarea {
+        margin-left: 3px;
+        font-size: 15px;
+        height: 30px;
+        width: 270px;
+
+    }
+
+    form label {
+        width: 60px;
+        height: 20px;
+        font-size: 15px;
+    }
+
+    button {
+        width: 150px;
+        height: 30px;
+        font-size: 15px;
+
+    }
 }

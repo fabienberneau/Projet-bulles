@@ -48,7 +48,7 @@ img {
 
 /* HEADER 
 ============================= */
-.topnav{
+.topnav {
     display: none;
 }
 
@@ -186,13 +186,13 @@ nav ul li a:hover {
     margin-top: 100px;
     max-width: 1000px;
     position: relative;
-   
-  }
-  
-  
-  
- 
-  .dot {
+
+}
+
+
+
+
+.dot {
     height: 15px;
     width: 15px;
     margin: 0 2px;
@@ -200,26 +200,36 @@ nav ul li a:hover {
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
-  }
+}
 
-  
-  
-  .fade {
+
+
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
 
 
 /* FOOTER
@@ -328,6 +338,7 @@ nav ul li a:hover {
         width: 325px;
         height: 487px;
     }
+
     .bienvenue .icone img {
         width: 30px;
         height: 30px;
@@ -375,12 +386,13 @@ nav ul li a:hover {
 ============================= */
 
     .topnav {
-       display: inherit;
+        display: inherit;
         overflow: hidden;
-        background-color:  #b9a3cc;
+        background-color: #b9a3cc;
         position: relative;
     }
-    .active img{
+
+    .active img {
         box-shadow: none;
         width: 27px;
         height: 35px;
@@ -405,14 +417,14 @@ nav ul li a:hover {
         right: 0;
         top: 0;
     }
-   
+
     .topnav a:hover {
         background-color: #6e4d8b;
-        color:#333333;
+        color: #333333;
     }
 
     .active {
-        background-color:#6e4d8b;
+        background-color: #6e4d8b;
         color: black;
     }
 
