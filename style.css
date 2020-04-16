@@ -183,6 +183,7 @@ nav ul li a:hover {
 
 
 .slideshow-container {
+   
     margin-top: 100px;
     max-width: 1000px;
     position: relative;
@@ -196,6 +197,7 @@ nav ul li a:hover {
     height: 15px;
     width: 15px;
     margin: 0 2px;
+    margin-bottom: 30px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
