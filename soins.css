@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-family: 'Inria Sans', sans-serif;
     color: #333333;
-    font-size: 25px;
+    font-size: 45px;
 }
 
 h3 {
@@ -74,6 +74,7 @@ img {
 }
 
 .choix {
+
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
@@ -83,10 +84,11 @@ img {
 
 .choix h3 {
     font-family: 'Inria Sans', sans-serif;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .duree {
+  
     margin-top: 70px;
     display: flex;
     justify-content: space-around;
@@ -108,7 +110,7 @@ img {
 }
 
 .tableaux-durees h2 {
-    font-size: 25px;
+   
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
@@ -126,13 +128,14 @@ img {
 
 
 .grille-duree h2 {
-
+    font-size: 30px;
     margin-top: 20px;
     color: #333333;
-    font-size: 25px;
+    
 }
 
 .box1 {
+    
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.30);
     margin-left: 10px;
     background-color: white;
